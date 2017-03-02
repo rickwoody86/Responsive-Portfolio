@@ -1,0 +1,155 @@
+body {
+	background: #1A202C;
+	font-family: Franklin Gothic, sans-serif;
+	line-height: 24px;
+}
+
+header {
+	background:  white;
+}
+
+main {
+	background:  #DEDAA9;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+	clear: both;
+	border-top: 5px solid #74AF96;
+}
+
+img.potrait {
+	padding: 5px;
+	border: 1px solid gray;
+ 	float: left;
+ 	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-left:20px;
+	box-shadow: 5px 5px 5px #888888
+ }
+
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;*/
+}
+.float {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+.active {
+    color: white;
+    margin-left: 20px;
+    font-size: 36px;
+    background-color: #084C61;
+}
+
+.container{ 
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 60px 0;
+}
+
+.container p {
+	margin-bottom: 18px;
+}
+
+ .aboutMe {
+ 	width: 60%;
+ 	float: left;
+ }
+
+ .aboutMe h1 {
+	margin-left: 20px;
+}
+
+ .sidebar {
+ 	margin-right: 10px;
+  	width: 28%;
+ 	float: right;
+ }
+
+ .sidebar h3 {
+ 	text-align: center;
+ 	font-size: 24px;
+}
+
+.sidebar ul li {
+	display: inline;
+	padding: 6px;
+
+}
+
+ .card { 
+ 	padding: 20px;
+ 	background: white;
+ 	box-shadow: 10px 10px 5px #888888;
+  }
+
+ .name {
+  	color: white;
+  	text-decoration: none;
+  	margin-left: 20px;
+  	background: #74AF96;
+  	font-size: 36px;
+  	padding: 24px;
+  	float: left;
+  }
+
+.Contact {
+	float: left;
+	height: 50%;
+	width: 50%;
+}
+
+.Portfolio {
+	float: left;
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.floating-box {
+	display: inline-block;
+	width:150px;
+	height: 75px;
+	margin: 10px;
+	padding: 30px;
+
+}
+
+ input[name=Message]  {
+	height: 33%;
+	width: 33%;
+}
+
+@media only screen and (max-width: 980px) {
+	.sidebar {float:none;
+			  margin-top: 10px;
+			  
+
+				}
+
+
+}
